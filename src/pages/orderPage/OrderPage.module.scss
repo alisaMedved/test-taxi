@@ -1,0 +1,34 @@
+.loadingForm {
+  opacity: 0.4;
+}
+
+.fetchedForm {
+  opacity: 1;
+}
+.wrapperForm {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.spinnerOrFetched {
+  display: block;
+  position: absolute;
+  left: 47%;
+  top: 170px;
+}
+.createdOrderForm {
+  opacity: 0;
+}
+.mapAndCrews {
+  display: flex;
+  flex-direction: row;
+}
+.addressField {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 600px;
+}
+.btn {
+  margin-top: 20px;
+}

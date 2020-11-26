@@ -10,10 +10,6 @@ export interface IRootStore {
     googleStore: IGoogleStore
 }
 
-// почему концепция мультистора? Я исхожу из того что ТЗ - лишь небольшая часть большого приложения
-
-// запихнула вес функционал в один стор taxiStore и не стала создавать несколько сторов
-// так как вижу не весь функционал большого приложения и потому не могу понять как лучше поделить сторы
 
 export class RootStore implements IRootStore {
     taxiStore: ITaxiStore;
